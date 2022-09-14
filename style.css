@@ -1,3 +1,6 @@
+body{
+  width: 100%;
+}
 #top-banner {
   color : rgb(255,255,255);
     font-size: 30px;
@@ -78,4 +81,32 @@
   margin-top: 40px;
 }
 
+#basis{
+  width: 80%;
+  margin: 25px auto;
+  background: rgb(225,235,235);
+  padding: 25px;
+}
 
+#basis h2{
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 10px 20px;
+  text-shadow: 1px 0 3px rgba(5, 15, 55, 0.9);
+  color: #fff;
+}
+
+#basis dt{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 20px;
+  text-shadow: 1px 0px 3px rgba(235, 215, 255, 0.9);
+  color: #000;
+}
+#basis dd{
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color:#fff;
+  text-shadow: 1px 1px 5px #111;
+}
