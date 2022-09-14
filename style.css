@@ -81,14 +81,14 @@ body{
   margin-top: 40px;
 }
 
-#basis{
+.basis{
   width: 80%;
   margin: 25px auto;
   background: rgb(225,235,235);
   padding: 25px;
 }
 
-#basis h2{
+.basis h2{
   font-size: 1.8em;
   font-weight: bold;
   margin: 10px 20px;
@@ -96,14 +96,14 @@ body{
   color: #fff;
 }
 
-#basis dt{
+.basis dt{
   font-size: 1.5em;
   font-weight: bold;
   margin: 10px 20px;
   text-shadow: 1px 0px 3px rgba(235, 215, 255, 0.9);
   color: #000;
 }
-#basis dd{
+.basis dd{
   font-size: 1.2em;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
