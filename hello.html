@@ -15,7 +15,7 @@
 
 		<!-- TITRE -->
 		<div id="top-banner">
-			Bienvenue dans cette formation GIT !
+			Recap GIT !
 		</div>
 		<div class="basis">
 			<h2>Les commits</h2>
@@ -25,7 +25,7 @@
 				<dt>git status</dt>
 					<dd>Affiche les infos sur ce qui n'a pas encore été commit entre autres et d'autres infos.</dd>
 				<dt>git diff</dt>
-					<dd>Affiche les modif apportés à tous les fichiers si on ne precise aucun fichier à la suite. on peut ajouter k'option --cashed pour que la verification se fasse au niveau de la zone d'indexation.</dd>
+					<dd>Affiche les modif apportés à tous les fichiers si on ne precise aucun fichier à la suite. on peut ajouter l'option --cashed pour que la verification se fasse au niveau de la zone d'indexation.</dd>
 				<dt>git add</dt>
 					<dd>Ajoute les fichiers spécifiés dans la zone d'indexation. si rien est précisé il prend tous les fichiers de l'espace courant.</dd>
 				<dt>git commit -m "message"</dt>
@@ -40,6 +40,29 @@
 					<dd>Affecte le tag au commit courant.</dd>
 				<dt>git tag --delete -nom-</dt>
 				<dd>Supprime le tag.</dd>
+			</dl>
+		</div>
+		<div class="basis">
+			<h2>Les dépots distants</h2>
+			<dl>
+				<dt>git clone "remote link" "dir"</dt>
+					<dd>Clone le depot distant en local.</dd>
+				<dt>git remote -v</dt>
+					<dd>Affiche la liste des remotes (push pour uploader et fetch pour recuperer).</dd>
+				<dt>git remote show "nom-remote"</dt>
+					<dd>Affiche les infos détaillées sur le remote/dd>
+				<dt>git remote add "nom-remote" "lien-push"</dt>
+					<dd>Synchronise le depot distant au depot local.</dd>
+				<dt>git push -u "nom-remote" "nom-branche"</dt>
+					<dd>Envoie le contenu du depot local vers le depot distant lié.</dd>
+				<dt>git push origin "nom-tag"</dt>
+					<dd>Envoie le tag spécifié depuis le depot local vers le dépot distant.</dd>
+				<dt>git push (origin) --tags</dt>
+					<dd>Envoie tous les tags cette fois ci.</dd>
+				<dt>git fetch </dt>
+					<dd>Recupere les commits et autres depuis le serveur distant (remote). en local, le tag Master reste tjrs sur le commit vers lequel il pointait.</dd>
+				<dt>git pull</dt>
+					<dd>Applique ces modifications provenant du serveur à notre depot local. le Tag Master va alors pointer vers le dernier commit de meme que "origin/master" </dd>
 			</dl>
 		</div>
 
